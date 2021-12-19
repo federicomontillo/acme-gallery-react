@@ -1,0 +1,23 @@
+.headerHome__container {
+  background-image: url(../../../assets/bg-header.png);
+  background-size: cover;
+  background-position-x: center;
+  height: 208px;
+  padding-top: 105px;
+  @media (max-width: 600px) {
+    height: 120px;
+    padding-top: 70px;
+  }
+  h1 {
+    font-family: $roboto;
+    font-weight: 700;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+    margin: 0px 70px;
+    @media (max-width: 600px) {
+      font-size: 35px;
+      margin: 0px 20px;
+    }
+  }
+}

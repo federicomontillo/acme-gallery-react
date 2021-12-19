@@ -1,0 +1,40 @@
+.searchbar__container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0px auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  label {
+    margin-right: 10px;
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888888;
+    @media (max-width: 574px) {
+      display: none;
+    }
+  }
+  input {
+    background-color: $light-grey;
+    border: none;
+    width: 281px;
+    height: 47px;
+    font-size: 20px;
+    border-radius: 10px;
+    @media (max-width: 574px) {
+      width: 100%;
+    }
+  }
+  .searchbar__img-search {
+    background-image: url(../../../assets/surface1.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    border: none;
+  }
+}

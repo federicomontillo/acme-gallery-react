@@ -1,0 +1,32 @@
+.footer_container {
+  bottom: 0px;
+  height: 61px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  .footer_decor-footer {
+    width: 100%;
+    height: 6px;
+    background-color: $primary;
+  }
+  .footer_content-footer {
+    background-color: #313131;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    img {
+      height: 28.27px;
+      @media (max-width: 600px) {
+        display: none;
+      }
+    }
+    p {
+      color: white;
+      font-family: $nunito;
+      font-size: 19px;
+      font-weight: 400;
+      margin: 0;
+      height: 28.27px;
+      padding: 5px;
+    }
+  }
+}
