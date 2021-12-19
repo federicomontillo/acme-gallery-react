@@ -6,7 +6,7 @@
 
 1- Copie del repositorio el enlace.
 
-2- Ejecute desde la terminal:  git clone ... en la ubicación que desea clonar el proyecto.
+2- Ejecute desde la terminal:  git clone https://github.com/federicomontillo/acme-gallery-react.git en la ubicación que desea clonar el proyecto.
 
 3- Para montar las dependencias necesarias para correr el proyecto ejecute: npm install
 
